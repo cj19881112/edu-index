@@ -27,7 +27,7 @@ gulp.task('js', function(){
 gulp.task('server', function(){
 	conn.server({
 		port: 9999,
-		root: 'dist',
+		root: '.',
 		livereload: true
 	});
 });
