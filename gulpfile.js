@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function() {
 	gulp.src('src/*.scss')
 		.pipe(sass())
-		.pipe(gulp.dest('dist/'))
+		.pipe(gulp.dest('dist/assets'))
 		.pipe(conn.reload());
 });
 
@@ -20,7 +20,7 @@ gulp.task('html', function(){
 
 gulp.task('js', function(){
 	gulp.src('src/*.js')
-		.pipe(gulp.dest('dist/'))
+		.pipe(gulp.dest('dist/assets'))
 		.pipe(conn.reload());
 });
 

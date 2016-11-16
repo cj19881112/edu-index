@@ -1,0 +1,219 @@
+@charset "UTF-8";
+.marquee img {
+  height: 180px;
+  border: 2px solid #E0DFDF;
+  padding: 2px 2px; }
+
+.marquee ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
+
+.marquee ul li {
+  margin-right: 10;
+  float: left; }
+
+.box {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  margin-top: 37px; }
+
+body {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: '微软雅黑';
+  font-size: 13px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+  color: inherit; }
+
+.row > div {
+  padding: 0px 5px; }
+
+.wrapper {
+  text-align: left;
+  margin: auto;
+  width: 1000px;
+  min-height: 700px; }
+  .wrapper .logo {
+    margin: 0px 5px;
+    overflow: hidden; }
+    .wrapper .logo img {
+      width: 1000px;
+      height: 150px; }
+  .wrapper .slab {
+    height: 40px;
+    background-color: white;
+    margin: 0px 5px; }
+    .wrapper .slab .welcome {
+      float: left;
+      line-height: 40px;
+      color: #a1a1a1; }
+      .wrapper .slab .welcome .small-span {
+        width: 13px;
+        height: 13px;
+        margin: 0px 5px 0px 10px;
+        margin-top: 12.5px;
+        float: left;
+        background-color: red; }
+    .wrapper .slab .collect {
+      float: right;
+      line-height: 40px;
+      color: #a1a1a1;
+      margin-right: 10px; }
+      .wrapper .slab .collect .glyphicon {
+        font-size: 13px;
+        color: #279EB6; }
+  .wrapper .login-wrapper {
+    width: 100%;
+    margin: 10px 0px; }
+    .wrapper .login-wrapper .slider-block {
+      height: 267px;
+      background-color: white;
+      padding: 10px 20px; }
+      .wrapper .login-wrapper .slider-block .block-header {
+        width: 100%; }
+        .wrapper .login-wrapper .slider-block .block-header .title {
+          color: #279EB6;
+          font-weight: bold;
+          font-size: 14px; }
+        .wrapper .login-wrapper .slider-block .block-header .more {
+          color: #a1a1a1; }
+    .wrapper .login-wrapper .login-form {
+      height: 267px; }
+      .wrapper .login-wrapper .login-form .title {
+        color: #279EB6;
+        font-weight: bold;
+        font-size: 13px;
+        height: 40px; }
+      .wrapper .login-wrapper .login-form form {
+        background-color: white;
+        padding: 10px 40px 40px 40px; }
+        .wrapper .login-wrapper .login-form form .btn {
+          background-color: #279EB6;
+          color: white; }
+        .wrapper .login-wrapper .login-form form .checkbox {
+          margin-top: 0px;
+          line-height: 20px; }
+        .wrapper .login-wrapper .login-form form .input-wrapper {
+          position: relative; }
+          .wrapper .login-wrapper .login-form form .input-wrapper .glyphicon {
+            color: #a1a1a1;
+            position: absolute;
+            right: 10px;
+            top: 10px; }
+          .wrapper .login-wrapper .login-form form .input-wrapper input {
+            margin: 15px 0px; }
+  .wrapper .block-title {
+    height: 30px;
+    text-align: center; }
+    .wrapper .block-title hr {
+      display: inline-block;
+      height: 5px;
+      width: 50px;
+      border-top: 2px solid #d2d2d2;
+      margin: 0px 8px;
+      padding: 0; }
+    .wrapper .block-title span {
+      font-size: 14px;
+      display: inline-block;
+      line-height: 14px;
+      font-weight: bold;
+      color: #a1a1a1; }
+    .wrapper .block-title .glyphicon {
+      color: #279EB6; }
+  .wrapper .block-title-red .glyphicon {
+    color: #f70104; }
+  .wrapper .seq-wrapper {
+    width: 100%;
+    margin-bottom: 10px; }
+    .wrapper .seq-wrapper .block {
+      width: 100%;
+      background-color: white;
+      padding-bottom: 10px; }
+      .wrapper .seq-wrapper .block .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 0;
+        color: #a1a1a1; }
+      .wrapper .seq-wrapper .block hr {
+        margin: 0px;
+        padding: 0px; }
+      .wrapper .seq-wrapper .block .header {
+        padding: 10px;
+        color: gray; }
+        .wrapper .seq-wrapper .block .header .name {
+          margin-left: 10px; }
+      .wrapper .seq-wrapper .block ul {
+        list-style: none; }
+        .wrapper .seq-wrapper .block ul li {
+          color: #a1a1a1;
+          display: block;
+          border-top: 1px dashed #BFBDBD;
+          padding: 10px; }
+          .wrapper .seq-wrapper .block ul li span {
+            display: inline-block; }
+          .wrapper .seq-wrapper .block ul li .seq {
+            text-align: center;
+            background-color: #279EB6;
+            width: 20px;
+            height: 20px;
+            color: white; }
+          .wrapper .seq-wrapper .block ul li .seq-gray {
+            background-color: #a1a1a1; }
+          .wrapper .seq-wrapper .block ul li .name {
+            margin-left: 10px; }
+  .wrapper .statics-block-wrapper {
+    width: 100%; }
+    .wrapper .statics-block-wrapper .statics-block {
+      width: 100%;
+      background-color: white;
+      padding: 10px; }
+      .wrapper .statics-block-wrapper .statics-block > div {
+        height: 200px;
+        padding-top: 20px; }
+        .wrapper .statics-block-wrapper .statics-block > div img {
+          float: left;
+          width: 160px;
+          height: 160px; }
+        .wrapper .statics-block-wrapper .statics-block > div > div {
+          float: left;
+          margin-left: 10px;
+          width: 120px;
+          height: 160px;
+          position: relative; }
+          .wrapper .statics-block-wrapper .statics-block > div > div div {
+            padding: 5px; }
+          .wrapper .statics-block-wrapper .statics-block > div > div .title {
+            font-size: 14px;
+            color: #a1a1a1;
+            font-weight: bold; }
+          .wrapper .statics-block-wrapper .statics-block > div > div .more {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            color: #279EB6;
+            padding: 0px; }
+      .wrapper .statics-block-wrapper .statics-block > div:nth-child(2) {
+        border-right: 1px dashed #BFBDBD;
+        border-left: 1px dashed #BFBDBD; }
+
+.footer {
+  height: 100px;
+  background-color: white;
+  border-top: 1px solid #e8e8e8;
+  margin: 0px 5px;
+  background-color: #279EB6;
+  text-align: center;
+  padding-top: 15px; }
+  .footer p {
+    font-size: 12px;
+    color: white; }
