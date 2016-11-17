@@ -1,0 +1,29 @@
+.block-title {
+	height: 30px;
+	hr {
+		display: inline-block;
+		height: 5px;
+		width: 50px;
+		border-top: 2px solid $default-color;
+		margin: 0px 8px;
+		padding: 0;
+	}
+
+	span {
+		font-size: $title-font-size;
+		display: inline-block;
+		line-height: $title-font-size;
+		font-weight: bold;
+	}
+
+	.glyphicon {
+		color: $primary-color;
+	}
+	text-align: center;
+}
+
+.block-title-red {
+	.glyphicon {
+		color: rgb(247, 1, 4);
+	}
+}

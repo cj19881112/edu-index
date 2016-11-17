@@ -1,0 +1,16 @@
+.balance {
+	&__left {
+		float: left;	
+	}
+
+	&__right {
+		float: right;
+	}
+
+	&__clear {
+		display: block;
+		clear: both;
+	}
+}
+
+

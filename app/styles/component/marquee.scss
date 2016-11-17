@@ -1,0 +1,28 @@
+.marquee img
+{
+	height: 180px;
+	border: 2px solid #E0DFDF;
+	padding: 2px 2px;
+
+}
+
+.marquee ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.marquee ul li
+{
+	margin-right: 10;
+	float: left;
+}
+
+
+.box{
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+}
+
